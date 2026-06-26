@@ -1,0 +1,18 @@
+{
+  "original": {
+    "correct": 199,
+    "total": 200,
+    "accuracy": 0.995
+  },
+  "edges": {
+    "correct": 52,
+    "total": 200,
+    "accuracy": 0.26
+  },
+  "texture_patch": {
+    "correct": 196,
+    "total": 200,
+    "accuracy": 0.98
+  },
+  "texture_minus_shape_gap": 0.72
+}
