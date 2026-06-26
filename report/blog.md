@@ -18,7 +18,7 @@ The dataset isolates the cue by removing one at a time. Each source object image
 - `edges` — shape kept, texture removed. A Canny edge map of the greyscaled, blurred image: black contours on white. This is the paper's own "edges" condition (their Appendix A.6).
 - `texture_patch` — texture kept, shape destroyed. The image is cut into a 4×4 grid and the sixteen tiles are randomly permuted. Local texture statistics survive inside each tile; the global outline is gone. This is the scrambled-shape manipulation the paper cites (Gatys et al. 2017; Brendel & Bethge 2019).
 
-![Three source classes shown as original, edges, and texture_patch](examples.png)
+![Three source classes shown as original, edges, and texture_patch](https://raw.githubusercontent.com/nikshithmenta/Control_Dataset/main/report/examples.png)
 
 *Three rows of source classes (tench, English springer, cassette player), each shown as `original`, `edges`, and `texture_patch`. The edge image keeps the contour and drops the texture; the patch image keeps the texture and drops the contour.*
 
@@ -82,7 +82,7 @@ Hand the same dataset a shape-biased model and the gap should shrink or flip. Th
 
 ## Links
 
-- Dataset and code: `<add your git/gitlab repo URL here>`
+- Dataset and code: https://github.com/nikshithmenta/Control_Dataset
 - Paper: Geirhos et al., *ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness*, ICLR 2019, https://arxiv.org/abs/1811.12231
 - Imagenette: https://github.com/fastai/imagenette
 

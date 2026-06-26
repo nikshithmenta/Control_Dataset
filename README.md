@@ -8,8 +8,7 @@ are biased towards texture* (ICLR 2019,
 - [`control-dataset/`](control-dataset/) — generator, evaluator, and the dataset
   (`data/original`, `data/edges`, `data/texture_patch`). See its
   [README](control-dataset/README.md) to run.
-- [`report/`](report/) — the blog post ([`blog.md`](report/blog.md)) and a LaTeX
-  version ([`report.tex`](report/report.tex)).
+- [`report/`](report/) — the blog post ([`blog.md`](report/blog.md)).
 
 A standard ResNet-50 scores 99.5% on the original images, 98.0% when the shape is
 scrambled, and 26.0% when only the shape (edges) remains: a +72 point texture
